@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit{
 
   successMsg: boolean = false;
 
-  siteKey: string = "6Lflo9kpAAAAAH8-WVUmx1rb6Rrawu3grSasZ-71";  //server key
+  siteKey: string = "6Lf-J90pAAAAAFWFP6HfvOHYvQ5yyCNKaFgBPCpP";  //server key
 
   constructor(
     private fb: FormBuilder,

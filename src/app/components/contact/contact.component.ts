@@ -47,7 +47,8 @@ export class ContactComponent implements OnInit{
     });
   }
 
-  siteKey: string = '6Lflo9kpAAAAAH8-WVUmx1rb6Rrawu3grSasZ-71'; //server key
+  // siteKey: string = '6Lflo9kpAAAAAH8-WVUmx1rb6Rrawu3grSasZ-71'; previous key
+  siteKey: string = '6Lf-J90pAAAAAFWFP6HfvOHYvQ5yyCNKaFgBPCpP';
 
   async submit() {
     if (this.contactForm.valid) {
