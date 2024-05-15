@@ -37,8 +37,8 @@ export class HomeComponent implements OnInit{
 
   async submit() {
     if (this.contactForm.valid) {
-      emailjs.init('Y1-_EsApy0Z1FZbG9');
-      let response = await emailjs.send('service_obpitzr', 'template_hztaz83', {
+      emailjs.init('XUClGPZ0eZgUH_aO8');
+      let response = await emailjs.send('service_e92iyf5', 'template_uv01gji', {
         from_name:
           this.contactForm.value.fname + ' ' + this.contactForm.value.lname,
         to_name: 'Mr. Admin',
