@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  bannerImage: string = "assets/images/about.webp";
+  bannerImage: string = "assets/images/about.png";
   missionImage: string = "assets/images/mission.svg";
   visionImage: string = "assets/images/vision.svg";
   

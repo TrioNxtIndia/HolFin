@@ -10,7 +10,7 @@ import emailjs from '@emailjs/browser';
 })
 export class ContactComponent implements OnInit{
 
-  bannerImage: string = 'assets/images/contact.webp';
+  bannerImage: string = 'assets/images/contact.png';
   contactForm!: FormGroup;
   successMsg: boolean = false;
 

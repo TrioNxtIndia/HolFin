@@ -10,7 +10,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class HomeComponent implements OnInit{
 
-  bannerImage: string = "assets/images/banner.webp";
+  bannerImage: string = "assets/images/banner.png";
   missionImage: string = "assets/images/mission.svg";
   visionImage: string = "assets/images/vision.svg";
   contactForm!: FormGroup;
